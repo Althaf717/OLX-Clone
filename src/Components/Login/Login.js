@@ -73,7 +73,7 @@ function Login() {
             <br />
             <label htmlFor="lname">Password</label>
             <small style={{float:'right',color:'red'}} >{error.password}</small>
-            <br />
+            <br /> 
             <input
               value={password}
               onChange={(e)=>setPassword(e.target.value)}
